@@ -97,9 +97,9 @@ const Administrador = () => {
   }
 
 
-  // Novedades componente
+  
 
-  const [novedades, setNovedades] = useState(false);
+  //const [novedades, setNovedades] = useState(false);
   
 
 
@@ -141,7 +141,7 @@ const Administrador = () => {
 
                 
 
-            {novedades ? (
+            
             
                 <div className="w-1/2">
                     <h2 className="text-center font-bold font-rale mb-2">Libros</h2>
@@ -151,14 +151,7 @@ const Administrador = () => {
                     tablaEditar={tablaEditar}/>
                 </div>
 
-                ) : (
-
-
-                <Novedades libros={libros}/>
                 
-
-
-                )}
 
 
             </div>
