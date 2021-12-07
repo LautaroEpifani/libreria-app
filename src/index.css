@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+.search{
+
+    @apply w-4/6 bg-gray-200 border border-transparent focus:outline-none focus:ring-2 focus:ring-red-200 focus:border-transparent rounded font-rale;
+} 
+
+.containerS {
+
+    @apply max-w-screen-md h-4/6 mx-auto mt-20 relative overflow-hidden shadow-inner;
+
+}  
